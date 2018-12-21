@@ -1,0 +1,14 @@
+create table posts (
+id int(10) NOT NULL AUTO_INCREMENT,
+title VARCHAR(255) NOT NULL,
+body TEXT, 
+author VARCHAR(255),
+created_at date,
+primary key(id)
+);
+
+
+use blog;
+
+
+DESCRIBE POSTS;
